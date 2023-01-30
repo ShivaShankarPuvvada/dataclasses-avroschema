@@ -223,7 +223,7 @@ class FavoriteColor(str, enum.Enum):
     GREEN = "GREEN"
 
 
-@dataclasses.dataclass
+
 class UserAdvance(AvroBaseModel):
     name: str
     age: int
